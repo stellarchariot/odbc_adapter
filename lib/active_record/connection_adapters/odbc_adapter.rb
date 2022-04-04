@@ -1,5 +1,7 @@
 require 'active_record'
-require 'arel/visitors/bind_visitor'
+# Commented out this require statment in April 2022 since the odbc_gem is outdated.
+# See: https://github.com/ibmdb/ruby-ibmdb/issues/78
+#require 'arel/visitors/bind_visitor'
 require 'odbc'
 require 'odbc_utf8'
 
